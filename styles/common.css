@@ -21,16 +21,16 @@
     font-size: 20px !important;
     padding: 8px 15px;
     letter-spacing: 2px;
-    background-image: linear-gradient(to right bottom, rgb(212, 120, 0), rgb(189, 27, 27));
-    background-color: rgb(153, 11, 23);
+    background-image: linear-gradient(to right bottom, #EF9A9A, #C62828);
+    background-color: #F44336;
     color: rgb(255, 255, 255);
-    border-left: 10px solid rgb(80, 1, 1);
+    border-left: 10px solid #AD1457;
     border-radius: 5px;
     text-shadow: rgb(122, 32, 32) 1px 1px 1px;
     box-shadow: rgb(102, 102, 102) 1px 1px 2px;
 }
 .markdown-section h2,h3 {
-    color: rgb(165, 32, 105);
+    color: #F44336;
 }
 .markdown-section>pre {
     border-radius: 16px;
@@ -39,7 +39,7 @@
     overflow: auto;
 }
 .markdown-section p code, .markdown-section ul code{
-    background-image: linear-gradient(to right bottom, rgb(240, 87, 202), rgb(156, 22, 29));
+    background-color:  #F06292;
     border-radius: 5px;
     padding: 3px 6px !important;
     margin: 0 2px;
