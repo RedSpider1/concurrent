@@ -72,12 +72,8 @@ java中提供的内存屏障机制有四种：LoadLoad,StoreStore,LoadStore,Stor
 ## volatile 性能
 volatile 的读性能消耗与普通变量几乎相同，但是写操作稍慢，因为它需要在本地代码中插入许多内存屏障指令来保证处理器不发生乱序执行。
 
-
 ## volatile 适用的场景
 目前只能推荐一篇文章,[volatile的适用场景][1],笔者目前没有使用经验，以后再做分享
-
-
-
 
 ## 参考链接
 * [happens-before规则和as-if-serial语义](https://blog.csdn.net/u010571316/article/details/64906481)
