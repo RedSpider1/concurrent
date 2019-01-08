@@ -17,10 +17,7 @@
 
 2.**解决禁止指令重排序**：有volatile修饰的变量，赋值后多执行了一个“load addl $0x0, (%esp)”操作，这个操作相当于一个**内存屏障**（指令重排序时不能把后面的指令重排序到内存屏障之前的位置)。重排序有三种，编译器重排序会按JMM的规范严格进行，换言之编译器重排序一般不会对程序的正确逻辑造成影响,第二、三步属于处理器重排序，处理器重排序JMM就不好管了，怎么办呢？它会要求java编译器在生成指令时加入内存屏障，内存屏障是什么？你可以理解为一个不透风的保护罩，把不能重排序的java指令保护起来，那么处理器在遇到内存屏障保护的指令时就不会对它进行重排序了。关于在哪些地方该加入内存屏障，内存屏障有哪些种类，各有什么作用，这些知识点这里就不再阐述了。可以参考JVM规范相关资料。
 java中提供的内存屏障机制有四种：LoadLoad,StoreStore,LoadStore,StoreLoad
->**LoadLoad屏障**：对于这样的语句Load1; LoadLoad; Load2，在Load2及后续读取操作要读取的数据被访问前，保证Load1要读取的数据被读取完毕。
-**StoreStore屏障**：对于这样的语句Store1; StoreStore; Store2，在Store2及后续写入操作执行前，保证Store1的写入操作对其它处理器可见。
-**LoadStore屏障**：对于这样的语句Load1; LoadStore; Store2，在Store2及后续写入操作被刷出前，保证Load1要读取的数据被读取完毕。
-**StoreLoad屏障**：对于这样的语句Store1; StoreLoad; Load2，在Load2及后续所有读取操作执行前，保证Store1的写入对所有处理器可见。它的开销是四种屏障中最大的。在大多数处理器的实现中，这个屏障是个万能屏障，兼具其它三种内存屏障的功能
+
 
 
 ## volatile 性能
@@ -133,6 +130,8 @@ flag=true
 * [深入理解JVM（二）——内存模型、可见性、指令重排序](https://www.cnblogs.com/leefreeman/p/7356030.html)
 * [JMM-volatile与内存屏障](https://blog.csdn.net/hqq2023623/article/details/51013468)
 * [并发关键字volatile（重排序和内存屏障）](https://www.jianshu.com/p/ef8de88b1343)
+
+* [Java并发编程：volatile关键字解析](https://www.cnblogs.com/dolphin0520/p/3920373.html)
 
 [1]:(https://github.com/RedSpider1/concurrent/tree/article-2-1-Java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B-%E9%99%88sir) "2.1Java内存模型基础知识"
 
