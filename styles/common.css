@@ -11,6 +11,10 @@
 .markdown-section p{
   font-size: 16px;
 }
+.markdown-section p>img{
+  margin: 0 auto;
+  display: block;
+}
 .markdown-section li{
   font-size: 16px !important;
 }
