@@ -41,10 +41,9 @@
 .markdown-section p code, .markdown-section ul code{
     background-color:  #F06292;
     border-radius: 5px;
-    padding: 3px 6px !important;
+    padding: 3px !important;
     margin: 0 2px;
     color: rgb(255, 255, 255);
-    box-shadow: grey 1px 3px 1px;
 }
 /*
 
