@@ -1,4 +1,4 @@
-hljs.initHighlightingOnLoad();
+hljs.initHighlighting();
 
 $(document).ready(function(){
     setTimeout(() => {
