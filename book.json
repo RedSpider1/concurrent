@@ -8,15 +8,5 @@
         "pdf": "styles/common.css",
         "mobi": "styles/common.css",
         "epub": "styles/common.css"
-    },
-    "plugins": ["-highlight","scripts"],
-    "pluginsConfig": {
-        "scripts": {
-            "files": [
-                "./js/jquery-2.2.4.min.js",
-                "./js/highlight.pack.js",
-                "./js/common.js"
-            ]
-        }
     }
 }
