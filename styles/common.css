@@ -11,11 +11,30 @@
 .markdown-section p{
   font-size: 16px;
 }
+.markdown-section p>img{
+  margin: 0 auto;
+  display: block;
+}
 .markdown-section li{
   font-size: 16px !important;
 }
 .markdown-section pre>code{
   font-size: 12px !important;
+}
+.markdown-section hr {
+  height: 1px;
+  padding: 0;
+  margin: 1.7em 0;
+  overflow: hidden;
+  background-color: red;
+  border: none;
+}
+.markdown-section blockquote {
+  margin: 0;
+  margin-bottom: .85em;
+  padding: 0 15px;
+  color: #858585;
+  border-left: 4px solid #CC6600;
 }
 .markdown-section h1 {
     font-size: 20px !important;
@@ -33,18 +52,14 @@
     color: #F44336;
 }
 .markdown-section>pre {
-    border-radius: 16px;
+    border-radius: 5px;
     box-shadow: rgb(102, 102, 102) 1px 2px 1px;
     background-color: lightgoldenrodyellow;
     overflow: auto;
 }
 .markdown-section p code, .markdown-section ul code{
-    background-color:  #F06292;
-    border-radius: 5px;
-    padding: 3px 6px !important;
-    margin: 0 2px;
-    color: rgb(255, 255, 255);
-    box-shadow: grey 1px 3px 1px;
+    background-color:  white;
+    color: red;
 }
 /*
 
@@ -56,18 +71,18 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
     display: block;
     overflow-x: auto;
     padding: 0.5em;
-    background: #23241f;
+    background: #23241f !important;
   }
   
   .hljs,
   .hljs-tag,
   .hljs-subst {
-    color: #31aa82;
+    color: #31aa82 !important;
   }
   
   .hljs-strong,
   .hljs-emphasis {
-    color: #a8a8a2;
+    color: #a8a8a2 !important;
   }
   
   .hljs-bullet,
@@ -76,39 +91,39 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
   .hljs-regexp,
   .hljs-literal,
   .hljs-link {
-    color: #ae81ff;
+    color: #ae81ff !important;
   }
   
   .hljs-code,
   .hljs-title,
   .hljs-section,
   .hljs-selector-class {
-    color: #af7121;
+    color: #af7121 !important;
   }
   
   .hljs-strong {
-    font-weight: bold;
+    font-weight: bold !important;
   }
   
   .hljs-emphasis {
-    font-style: italic;
+    font-style: italic !important;
   }
   
   .hljs-keyword,
   .hljs-selector-tag,
   .hljs-name,
   .hljs-attr {
-    color: #f92672;
+    color: #f92672 !important;
   }
   
   .hljs-symbol,
   .hljs-attribute {
-    color: #66d9ef;
+    color: #66d9ef !important;
   }
   
   .hljs-params,
   .hljs-class .hljs-title {
-    color: #34c474;
+    color: #34c474 !important;
   }
   
   .hljs-string,
@@ -121,12 +136,12 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
   .hljs-addition,
   .hljs-variable,
   .hljs-template-variable {
-    color: #000000;
+    color: #000000 !important;
   }
   
   .hljs-comment,
   .hljs-deletion,
   .hljs-meta {
-    color: #75715e;
+    color: #75715e !important;
   }
   
