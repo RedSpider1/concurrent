@@ -8,5 +8,31 @@
         "pdf": "styles/common.css",
         "mobi": "styles/common.css",
         "epub": "styles/common.css"
+    },
+    "plugins": [
+        "anchor-navigation-ex-toc"
+    ],
+    "pluginsConfig": {
+        "anchor-navigation-ex-toc": {
+            "showLevel": false,
+            "associatedWithSummary": false,
+            "printLog": false,
+            "multipleH1": false,
+            "mode": "float",
+            "showGoTop":true,
+            "float": {
+                "floatIcon": "fa fa-navicon",
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            },
+            "pageTop": {
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            }
+        }
     }
 }
