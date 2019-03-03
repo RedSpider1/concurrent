@@ -10,7 +10,7 @@
   * [4 Java线程的状态及主要转化方法](./article/01/4.md)
   * [5 Java线程间的通信](./article/01/5.md)
 
-* 第二篇：基础篇
+* 第二篇：原理篇
   * [6 Java内存模型基础知识](./article/02/6.md)
   * [7 重排序与happens-before](./article/02/7.md)
   * [8 volatitle](./article/02/8.md)
