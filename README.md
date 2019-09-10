@@ -1,3 +1,7 @@
+## 文章地址
+- [深入浅出Java多线程](http://concurrent.redspider.group/RedSpider.html)
+- [【GithubBook】深入浅出Java多线程](https://redspider.gitbook.io/concurrent/)
+
 ## 本书简介
 
 笔者在读完市面上关于Java并发编程的资料后，感觉有些知识点不是很清晰，于是在RedSpider社区内展开了对Java并发编程原理的讨论。鉴于开源精神，我们决定将我们讨论之后的Java并发编程原理整理成书籍，分享给大家。
