@@ -13,7 +13,7 @@
 * 第二篇：原理篇
   * [6 Java内存模型基础知识](./article/02/6.md)
   * [7 重排序与happens-before](./article/02/7.md)
-  * [8 volatitle](./article/02/8.md)
+  * [8 volatile](./article/02/8.md)
   * [9 synchronized与锁](./article/02/9.md)
   * [10 CAS与原子操作](./article/02/10.md)
   * [11 AQS](./article/02/11.md)
