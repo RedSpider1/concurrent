@@ -4,7 +4,7 @@
 
 ## 本地运行
 
-先按照gitbook
+先安装gitbook
 
 ```bash
 npm install gitbook-cli -g
