@@ -1,6 +1,7 @@
 ## 文章地址
 - [深入浅出Java多线程](http://concurrent.redspider.group/RedSpider.html)
 - [【GithubBook】深入浅出Java多线程](https://redspider.gitbook.io/concurrent/)
+- [PDF](./book.pdf) (PDF生成比较麻烦，不会每个提交都生成，建议看网页版本)
 
 ## 本地运行
 
