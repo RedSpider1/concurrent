@@ -6,6 +6,6 @@ RUN npm install -g cnpm --registry=https://registry.npm.taobao.org \
   && cnpm i gitbook-cli -g \
   && gitbook install \
   && sed -i 's/confirm: true/confirm: false/g' ~/.gitbook/versions/3.2.3/lib/output/website/copyPluginAssets.js
-CMD ["gitbook", "serve ."]
+CMD ["gitbook", "serve", "."]
 
 EXPOSE 4000
