@@ -47,6 +47,6 @@ steps:
 
   - name: start container
     commands:
-      - docker run -d --name=concurrent --restart=always -p 3001:3000 registry.cn-hangzhou.aliyuncs.com/yasinshaw/concurrent:latest
+      - docker run -d --name=concurrent --restart=always -p 4000:4000 registry.cn-hangzhou.aliyuncs.com/yasinshaw/concurrent:latest
 depends_on:
   - build
