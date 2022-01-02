@@ -3,9 +3,9 @@ name: build
 
 steps:
   - name: fetch
-  image: alpine/git
-  commands:
-    - git fetch http://yasinshaw.com:10081/xiaoyao/concurrent +refs/heads/develop
+    image: alpine/git
+    commands:
+      - git fetch http://yasinshaw.com:10081/xiaoyao/concurrent +refs/heads/develop
 
   - name: docker
     image: plugins/docker
