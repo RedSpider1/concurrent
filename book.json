@@ -19,7 +19,7 @@
             "printLog": false,
             "multipleH1": false,
             "mode": "float",
-            "showGoTop":true,
+            "showGoTop": true,
             "float": {
                 "floatIcon": "fa fa-navicon",
                 "showLevelIcon": false,
