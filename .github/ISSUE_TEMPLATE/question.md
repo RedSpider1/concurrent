@@ -1,5 +1,5 @@
 ---
-name: 疑问 
+name: 内容疑问
 about: 关于内容的疑问 
 title: ''
 labels: ''
