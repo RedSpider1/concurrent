@@ -20,7 +20,7 @@ RedSpider技术社区是一个敏捷的技术社区。我们通过一些敏捷�
 
 我们使用Git来管理整个书籍的编写工作，托管到GitHub上。
 
-到目前为止总共有两百多次提交记录，地址：[https://github.com/RedSpider1/concurrent。](https://github.com/RedSpider1/concurrent)
+到目前为止总共有两百多次提交记录，地址：[https://github.com/RedSpider1/concurrent](https://github.com/RedSpider1/concurrent)
 
 ### 开源与分享
 
