@@ -50,3 +50,7 @@ gitbook serve .
 欢迎关注微信公众号“编了个程”，每周会更新一篇Java方面的**原创技术文章**
 
 ![公众号](https://file.yasinshaw.com/202004/20/E432D8F2EA04.jpg)
+
+## Reading note
+
+- Run `gitbook serve .` after installing dependencies to preview the content locally.
