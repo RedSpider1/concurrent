@@ -37,6 +37,8 @@ gitbook serve .
 
 也欢迎读者结合实践一起完善相关知识点。
 
+期待更多读者参与讨论并分享实践经验。
+
 如果您或者您的单位愿意赞助本书或本社区，请发送邮件到RedSpider社区邮件组redspider@qun.mail.163.com或加微信**redspider-worker**进行洽谈。
 
 ## 勘误和支持 
