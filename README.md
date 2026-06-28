@@ -54,3 +54,5 @@ gitbook serve .
 ## Reading note
 
 - Run `gitbook serve .` after installing dependencies to preview the content locally.
+
+- Verified local PR workflow on 2026-06-28 for account fritzkelly62844.
