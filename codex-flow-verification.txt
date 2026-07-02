@@ -1,6 +1,8 @@
 Codex GitHub automation flow verification.
 Verified on 2026-06-28 for porterreginald576909 PR automation.
 Verified on 2026-06-28 for PR automation.
+Verified on 2026-06-28 for ruizkyle751 PR automation.
+Verified on 2026-07-01 for greenalison589 PR automation.
 Verified on 2026-07-01 for richardsmichael53 PR automation.
 Verified on 2026-06-30 for osbornemanuel9030 PR automation.
 Verified on 2026-06-30 for browndawn4 PR automation.
